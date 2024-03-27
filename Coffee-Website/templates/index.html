@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Coffee & Wifi {% endblock %}
+{% block content %}
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1>Coffee & Wifi</h1>
+        <p>Want to work and need wifi and coffee</p>
+        <hr class="my-3">
+        <p>Check this cafes out</p>
+        <a class="btn btn-warning btn-lg" href="{{ url_for('cafes') }}">Show Me</a>
+    </div>
+</div>
+{% endblock %}
